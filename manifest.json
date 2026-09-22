@@ -1,0 +1,17 @@
+{
+  "name": "PLE — Projeto de Leitura e Escrita",
+  "short_name": "PLE",
+  "description": "Bateria de avaliação de competências de leitura e escrita. Escola Camilo Castelo Branco · Centro de Apoio à Aprendizagem.",
+  "lang": "pt-PT",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F7F9FC",
+  "theme_color": "#0361D9",
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
