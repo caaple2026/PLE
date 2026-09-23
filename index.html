@@ -60,6 +60,15 @@
   });
 })();
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+  const SUPABASE_URL = 'https://wfhklxzptcdixftkfyhy.supabase.co';
+  const SUPABASE_KEY = 'sb_publishable_GuGUJQGWdl-CxgBMIjDcIw_vuy2qWlh';
+
+  const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+  );
+</script>
 </head>
 <body>
   <div id="__bundler_thumbnail">
